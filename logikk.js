@@ -14,7 +14,7 @@ let yesButton = document.getElementById("yes");
 
 yesButton.addEventListener('click', e => {
     console.log(document.getElementById('ques'));
-    document.getElementById('ques').innerHTML = "Love You Too😘😍❤️";
+    document.getElementById('ques').innerHTML = "Love You Too😘❤️";
     yesButton.style.display="none";
     noButton.style.display="none";
 
